@@ -5,18 +5,8 @@
   }
   
   :root {
-    --text-color: white;
-    --bg-url: url(./img/bg-mobile.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./moon-stars.svg);
-  }
-  
-  .light {
     --text-color: black;
-    --bg-url: url(./img/bg-mobile-light.jpg);
+    --bg-url: #040c44;
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -24,8 +14,18 @@
     --switch-bg-url: url(.//sun.svg);
   }
   
+  .light {
+    --text-color: white;
+    --bg-url: #040c44;
+    --stroke-color: rgba(255, 255, 255, 0.5);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-hover: rgba(0, 0, 0, 0.02);
+    --highlight-color: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(./moon-stars.svg);
+  }
+  
   body {
-    background-image: var(--bg-url);
+    background-color: #040c44;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
